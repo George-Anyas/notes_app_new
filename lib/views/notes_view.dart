@@ -24,7 +24,7 @@ class NotesView extends StatelessWidget {
                 ),
                 context: context,
                 builder: (context) {
-                  return const AddNoteButtomShet();
+                  return AddNoteButtomShet();
                 });
           }),
       body: const Padding(

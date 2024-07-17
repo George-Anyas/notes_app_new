@@ -25,7 +25,7 @@ class CustomTextField extends StatelessWidget {
 
   OutlineInputBorder buildBorder() {
     return OutlineInputBorder(
-      borderSide: BorderSide(color: kprimaryColor),
+      borderSide: const BorderSide(color: kprimaryColor),
       borderRadius: BorderRadius.circular(16),
     );
   }
