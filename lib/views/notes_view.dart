@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:notes_app_new/contants.dart';
 import 'package:notes_app_new/widgets/add_note_buttom_shet.dart';
 import 'package:notes_app_new/widgets/custom_appbar.dart';
@@ -24,15 +24,18 @@ class NotesView extends StatelessWidget {
                 ),
                 context: context,
                 builder: (context) {
-                  return AddNoteButtomShet();
+                  return const AddNoteButtomShet();
                 });
           }),
       body: const Padding(
-        padding: EdgeInsets.symmetric(horizontal: 16),
+        padding: EdgeInsets.symmetric(horizontal: 24),
         child: Column(
           children: [
             SizedBox(height: 50),
-            CustomAppBar(),
+            CustomAppBar(
+              title: 'Notes',
+              icon: Icons.search,
+            ),
             NotesListView(),
           ],
         ),
