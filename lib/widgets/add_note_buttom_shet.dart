@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app_new/contants.dart';
+
 import 'package:notes_app_new/widgets/custom_botton.dart';
 import 'package:notes_app_new/widgets/custom_text_field.dart';
 
@@ -8,7 +8,7 @@ class AddNoteButtomShet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
+    return const Padding(
       padding: EdgeInsets.symmetric(horizontal: 16),
       child: SingleChildScrollView(
         child: Column(
