@@ -14,7 +14,7 @@ class NotesBody extends StatelessWidget {
         }));
       },
       child: Container(
-        padding: EdgeInsets.only(top: 20, bottom: 20, left: 16),
+        padding: const EdgeInsets.only(top: 20, bottom: 20, left: 16),
         decoration: BoxDecoration(
             color: Colors.yellow, borderRadius: BorderRadius.circular(16)),
         child: Column(
