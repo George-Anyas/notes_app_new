@@ -16,7 +16,7 @@ class EditNoteView extends StatelessWidget {
               height: 50,
             ),
             CustomAppBar(
-              title: 'Edit Note ',
+              title: 'Edit Note',
               icon: Icons.check,
             ),
             SizedBox(
